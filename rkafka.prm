@@ -1,0 +1,7 @@
+REPLICAT rkafka
+--add replicat rkafka, exttrail D:\JAVA_STUDY\LIVESTREAMING\GG-11.2.1.0.3\dirdat\1t
+TARGETDB LIBFILE ggjava.dll SET property=dirprm/kafka.props
+SOURCEDEFS ./dirsql/SOURCE_DEFGEN.def
+REPORTCOUNT EVERY 1 MINUTES, RATE
+GROUPTRANSOPS 10000
+MAP SCOTT.CUSTOMERS, TARGET mySchemaTopic.*;

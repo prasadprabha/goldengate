@@ -1,0 +1,40 @@
+*+- Defgen version 2.0, Encoding windows-1252
+*
+* Definitions created/modified  2018-07-08 15:18
+*
+*  Field descriptions for each column entry:
+*
+*     1    Name
+*     2    Data Type
+*     3    External Length
+*     4    Fetch Offset
+*     5    Scale
+*     6    Level
+*     7    Null
+*     8    Bump if Odd
+*     9    Internal Length
+*    10    Binary Length
+*    11    Table Length
+*    12    Most Significant DT
+*    13    Least Significant DT
+*    14    High Precision
+*    15    Low Precision
+*    16    Elementary Item
+*    17    Occurs
+*    18    Key Column
+*    19    Sub Data Type
+*
+Database type: ORACLE
+Character set ID: UTF-8
+National character set ID: UTF-16
+Locale: neutral
+Case sensitivity: 14 14 14 14 14 14 14 14 14 14 14 14 11 14 14 14
+*
+Definition for table SCOTT.CUSTOMERS
+Record length: 124
+Syskey: 0
+Columns: 3
+CUSTOMER_ID    134     11        0  0  0 1 0      8      8      8 0 0 0 0 1    0 1 3
+CUSTOMER_NAME   64     50       12  0  0 1 0     50     50      0 0 0 0 0 1    0 1 0
+CITY            64     50       68  0  0 1 0     50     50      0 0 0 0 0 1    0 1 0
+End of definition

@@ -1,0 +1,3 @@
+defsfile ./dirsql/SOURCE_DEFGEN.def
+userid ggs_owner password ggs_owner
+TABLE scott.customers;
